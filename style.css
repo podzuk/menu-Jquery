@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6704b; }
+
+@font-face {
+  font-family: "fonts";
+  src: url("font/JF-Flat-regular.woff") format("truetype"); }
+
+.main_block {
+  position: absolute;
+  width: 450px;
+  height: 1000px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0; }
+  .main_block__menu_header {
+    color: #ffe9c1;
+    background-color: #620808;
+    padding-left: 30px;
+    width: 380px;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .main_block__menu_title {
+    top: 100px;
+    padding: 20px;
+    color: #ffe9c1;
+    background-color: #620808;
+    font-family: "fonts";
+    width: 380px;
+    height: 165px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.2;
+    display: none; }
+  .main_block__title {
+    margin-left: 65px;
+    margin-top: -55px;
+    font-family: "fonts"; }
+  .main_block__icons {
+    margin-top: 23px; }
+  .main_block__music {
+    color: #f4ce74;
+    background-color: #a53f3f; }
+  .main_block__notes {
+    color: #620808;
+    background-color: #f4ce74; }
+  .main_block__books {
+    color: #a53f3f;
+    background-color: #ffe9c1; }
+  .main_block__tendences {
+    color: #ffe9c1;
+    background-color: #d5441c; }

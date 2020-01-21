@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6704b;
+}
+@font-face {
+  font-family: "fonts";
+  src: url("font/JF-Flat-regular.woff") format("truetype");
+}
+.main_block {
+  position: absolute;
+  width: 450px;
+  height: 1000px;
+  margin: auto;
+  top: 0;
+
+  left: 0;
+  right: 0;
+  &__menu_header {
+    color: #ffe9c1;
+    background-color: #620808;
+    padding-left: 30px;
+    width: 380px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  &__menu_title {
+    top: 100px;
+    padding: 20px;
+    color: #ffe9c1;
+    background-color: #620808;
+    font-family: "fonts";
+    width: 380px;
+    height: 165px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    display: none;
+  }
+  &__title {
+    margin-left: 65px;
+    margin-top: -55px;
+    font-family: "fonts";
+  }
+  &__icons {
+    margin-top: 23px;
+  }
+  &__music {
+    color: #f4ce74;
+    background-color: #a53f3f;
+  }
+  &__notes {
+    color: #620808;
+    background-color: #f4ce74;
+  }
+  &__books {
+    color: #a53f3f;
+    background-color: #ffe9c1;
+  }
+  &__tendences {
+    color: #ffe9c1;
+    background-color: #d5441c;
+  }
+}
